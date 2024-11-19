@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* Global Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Background Section */
+.background {
+    position: relative;
+    background: #e6e6e6;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    position: relative;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.form-title {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.form-subtitle {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #ffca28;
+    outline: none;
+    background-color: #fff;
+}
+
+/* Terms and Links */
+.terms {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.terms a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Submit Button */
+.submit-btn {
+    padding: 12px 20px;
+    background-color: #ffca28;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 48%;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #ff9800;
+}
+
+/* Help Link */
+.help-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.help-link:hover {
+    text-decoration: underline;
+}
